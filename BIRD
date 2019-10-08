@@ -1,0 +1,10 @@
+String bird1 = "BIRD";
+String bird2 = "BiRd".toUpperCase();
+String bird3 = bird1;
+String bird = "bird";
+
+System.out.println(bird1 == bird3);       // line 1
+System.out.println(bird == bird1);        // line 2
+System.out.println(bird1 == bird2);       // line 3
+System.out.println(bird1.equals(bird2));  // line 4
+System.out.println(bird.equals(bird1));   // line 5
